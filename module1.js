@@ -1,10 +1,10 @@
 // require
 
 
-const names = require('./module_2')
-const sayHi = require('./module_3')
+const names = require('./module2')
+const sayHi = require('./module3')
 console.log(names);
-const data = require('./module_4')
+const data = require('./module4')
 
 
 sayHi(names.john)
